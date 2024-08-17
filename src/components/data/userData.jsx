@@ -1,10 +1,10 @@
 const userData = [
   {
     id: 1,
-    fname: "Kenti",
-    lname: "Johnson",
+    fname: "Julian",
+    lname: "Xeer",
     city: "New York",
-    website: "kjohnson.com",
+    website: "xeer.blog",
     created_at: "2024-06-20T16:23:31.202Z",
   },
   {
