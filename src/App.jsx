@@ -1,20 +1,16 @@
 import "./App.css";
+import { useState } from "react";
 import Box from "./components/Box.jsx";
 import userData from "./components/data/userData.jsx";
-import ShowUser from "./components/ShowUser.jsx";
-const [user, setUser] = useState(userData);
 
 function App() {
+  const [user, setUser] = useState(userData);
+  // console.log(userData)
   return (
     <div className="app">
-      {userData.map((user, id) => {
-        <Box key={id} user={user} />;
-      })}
-      <Box />
-      <Box />
-      <Box />
-      <Box />
-      <Box />
+      {userData.map((user, id) => (
+        <Box key={id} user={user} />
+      ))}
     </div>
   );
 }
