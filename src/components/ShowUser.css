@@ -1,0 +1,8 @@
+.showuser {
+    border: 1px solid rgb(220, 213, 213);
+    border-radius: 5px;
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    width: 90% margin: 20px auto;
+}
